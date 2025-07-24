@@ -1,0 +1,103 @@
+body {
+    font: 1.6 helvetica;
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+}
+
+.Login {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.facebooktext {
+    padding: 1rem;
+    font-size: 4rem;
+    color: rgb(54, 117, 225);
+}
+
+.title {
+    font-size: 2rem;
+    color: black;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.LoginContainer {
+    border: .3rem;
+    color: #ffffff solid;
+    background-color: #ffffff;
+    height: 20rem;
+    padding: 1rem;
+    border-radius: .7rem;
+    width: 25rem;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: .7rem;
+    font-size: 17px;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: .7rem;
+    font-size: 17px;
+}
+
+input::placeholder {
+    font-size: 1.3rem;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #1877f2;
+    border: none;
+    box-sizing: border-box;
+    padding: 15px 32px;
+    justify-content: center;
+    margin: 4px 2px;
+    color: #ffffff;
+    border-radius: .5rem;
+}
+
+.forgot a {
+    color: #8b0ab1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1rem;
+    margin-inline: 50px;
+}
+
+a.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0f2f5;
+    background-color: #42b72a;
+    padding: 15px 2px;
+    text-decoration: none;
+    font-size: 18px;
+    width: 60%;
+    font-weight: bold;
+    border-radius: .5rem;
+    margin-left: 78px;
+}
+
+.LoginDetails {
+    border-bottom: .1rem black solid;
+}

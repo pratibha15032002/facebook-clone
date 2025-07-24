@@ -1,0 +1,55 @@
+.Rgister {
+    width: 100%;
+
+}
+
+.Heading {
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Container {
+    width: 50%;
+    margin: auto;
+    margin-top: 18px;
+    font-size: 30px;
+    box-shadow: 0px 0px 15px;
+    margin-bottom: 22px;
+}
+
+input#email.Goldi1 {
+    width: 99%;
+    height: 62px;
+    border-radius: 10px;
+    
+}
+
+input#birthday.Birthday1 {
+    width: 99%;
+    height: 62px;
+    border-radius: 10px;
+    font-size: large;
+}
+select#gender.Genderrr{
+    width: 99%;
+    height: 62px;
+    border-radius: 10px;
+    font-size: large;
+    border-width: 2px;
+    border-style: inset;
+}
+button.btn{
+    margin-top: 28px ;
+    width: 50%;
+    margin-left: 150px;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+button.btn :hover{
+    background-color: darkslategrey;
+    color: white;
+}
+
